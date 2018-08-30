@@ -1,0 +1,134 @@
+body {
+    background: url(../images/back.png)  no-repeat fixed;
+    background-size: cover;
+  }
+  
+  .jumbotron{
+    background-color: rgba(210, 210, 210, 0.0);
+    border: none;
+  }
+  .titlelogo{
+    width: 200px;
+    height: 100px;
+  }
+  .titlelogo2{
+    width: 500px;
+    height: 200px;
+    margin-left: 150px;
+  }
+  .character {
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid black;
+    background: linear-gradient(to bottom, red 0%,red 50%,#000000 50%,white 50%,white 100%);
+    border-radius: 3000px;
+  }
+  .container-fluid {
+      
+  }
+  .players {
+    margin-bottom: 20px;
+  }
+  .pic {
+    width: 100%;
+  }
+  .pic2 {
+    width: 100%;
+  }
+  h1.title {
+    margin: 0;
+  }
+  
+  .player {
+    padding: 10px;
+    color: green;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    background: rgba(152, 238, 162, 0.379);
+    border-radius: 30px;
+    font-weight: bold;
+
+  }
+.enemy {
+      padding: 10px;
+      color: darkred;
+      width: 200px;
+      height: 300px;
+      text-align: center;
+      background: rgba(182, 107, 94, 0.6);
+      border-radius: 30px;
+      font-weight: bold;
+  
+    }
+  
+  .characterList .pic {
+    max-width: 80px;
+  }
+  
+  .name{
+    font-weight: bold;
+    color:blue;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .pokemontitle{
+
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  .top{
+    padding: 1px;
+    color: black;
+    font-size: 9px;
+    text-align: center;
+  }
+  .selectpokemon{
+    font-weight: bold;
+    text-align: left;
+    color: blue;
+    font-size: 20px;
+  }
+
+  .text{
+background: white;
+height: 80px;
+border: 5px solid black;
+text-align: center;
+font-family: 'VT323', monospace;
+border-radius: 30px;
+color: blue;
+font-size: 30px;
+  }
+
+  .vs{
+
+    width: 10px;
+    height: 10px;
+  }
+
+  .won{
+    background: white;
+    height: 80px;
+    border: 5px solid black;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    border-radius: 30px;
+    color: darkgoldenrod;
+    font-size: 50px;
+     height: 400px;
+  width: 800px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 300px;
+  margin-top: 100px;
+  }
