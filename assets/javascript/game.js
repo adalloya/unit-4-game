@@ -1,5 +1,8 @@
 $(document).ready(function() {
-
+     
+  $('.newGame2').on('click', function() {
+    location.reload();
+  });
     // Code out HTML View for Game
         //4 Clickable Character Boxes
             // Each has Name, image, and stats
@@ -165,6 +168,7 @@ $(document).ready(function() {
         $('.pickCharacter').html('<h2>'+ playerActive.name +' has won! Choose the next Pokémon to battle!</h2>');
         enemyPicked = false;
         Playerwins++;
+        $('.attack').html('');
       }
   
        if (enemyActive.health > 0 && playerActive.health > 0){
@@ -183,15 +187,13 @@ $(document).ready(function() {
       }
 
       if (Playerwins === 3) {
-        $('.play').html('<h3 class="won">Congratulations, '+playerActive.name+ ' has won! You are now a Pokémon Master <img class="titlelogo2" src="assets/images/win.gif">  <button type="button" class="btn btn-primary btn-block newGame"><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> New Game</button></h3>');
+        $('.play').html('<h3 class="won">Congratulations, '+playerActive.name+ ' has won! You are now a Pokémon Master <img class="titlelogo2" src="assets/images/win.gif">  <button type="button" class="btn btn-primary btn-block newGame2"><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Please refresh the page to play again!</button></h3>');
       }
   
     });
   
     $('.newGame').on('click', function() {
-      newGame();
-      wins=0;
-      enemyPicked = false;
+      location.reload();
     });
        
   
