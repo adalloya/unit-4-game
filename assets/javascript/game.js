@@ -147,7 +147,7 @@ $(document).ready(function() {
           i++;
         });
         $('.enemy .stats').html('Health: <progress id="health" value="'+ enemyActive.health + '" max="'+ enemyBasehealth +'"></progress>');
-  
+        $('.attack').html('');
         i = 0;
         enemyPicked = true;
       }
