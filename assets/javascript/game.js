@@ -147,7 +147,6 @@ $(document).ready(function() {
           i++;
         });
         $('.enemy .stats').html('Health: <progress id="health" value="'+ enemyActive.health + '" max="'+ enemyBasehealth +'"></progress>');
-        $('.attack').html('');
         i = 0;
         enemyPicked = true;
       }
@@ -168,7 +167,6 @@ $(document).ready(function() {
         $('.pickCharacter').html('<h2>'+ playerActive.name +' has won! Choose the next Pokémon to battle!</h2>');
         enemyPicked = false;
         Playerwins++;
-        $('.attack').html('');
       }
   
        if (enemyActive.health > 0 && playerActive.health > 0){
